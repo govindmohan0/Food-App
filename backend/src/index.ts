@@ -8,7 +8,7 @@ app.use(cors());
 
 app.get("/test", async (req: Request, res: Response) => {
   try {
-    res.json({ message: "Hello!" });
+    res.json({ message: "Hello! me" });
   } catch (error) {
     res.status(500).json({ error: "Something went wrong" });
   }
