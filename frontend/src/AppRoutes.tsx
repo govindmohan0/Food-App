@@ -6,7 +6,7 @@ const AppRoutes=()=>{
      <Routes>
 
      <Route path="/" element={<Layout><HomePage></HomePage></Layout>}/>
-     <Route path="/user" element={<span>user ji</span>}/>
+     <Route path="/users" element={<span>user ji</span>}/>
      <Route path="/" element={<Navigate to="/"/>}/>
 
      </Routes>
